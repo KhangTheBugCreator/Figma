@@ -46,6 +46,7 @@ a {
 .header.fixed {
   position: sticky;
   top: -28px;
+  z-index: 1;
 }
 .header .body_header {
   display: flex;
@@ -205,6 +206,7 @@ a {
   margin-left: 28px;
   background: transparent;
   display: flex;
+  cursor: pointer;
   align-items: center;
 }
 .hero .watch-video .icon {
@@ -216,4 +218,31 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.hero .watch-video span {
+  color: #171100;
+  margin-left: 14px;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 166.667%; /* 166.667% */
+}
+
+.hero .desc-recent {
+  margin-top: 48px;
+}
+
+.hero .desc.stats strong {
+  color: #171100;
+  margin-right: 15px;
+  font-family: var(--font-heading);
+  font-size: 4.4rem;
+  font-weight: 700;
+  line-height: 122.727%; /* 122.727% */
+}
+
+.hero .desc.stats strong:nth-child(2) {
+  margin-left: 28px;
+}
+.hero .stats {
+  margin-top: 8px;
 }
