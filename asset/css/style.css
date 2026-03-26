@@ -38,6 +38,14 @@ a {
 .btn:hover {
   opacity: 0.91;
 }
+.heading-lv2 {
+  color: #171100;
+  font-family: var(--font-heading);
+  font-size: 3.8rem;
+  font-weight: 700;
+  line-height: 126.3%; /* 126.316% */
+  letter-spacing: -0.76px;
+}
 /* ============================================================== */
 /* header */
 .header {
@@ -245,4 +253,46 @@ a {
 }
 .hero .stats {
   margin-top: 8px;
+}
+
+/* Popular */
+/* popular-top */
+.popular {
+  padding: 65px 0;
+  background-color: #fff;
+  margin-top: 135px; /*200-65=135 */
+}
+.popular-top .desc {
+  margin-top: 16px;
+  width: 458px;
+  color: #5f5b53;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 166.667%; /* 166.667% */
+}
+.popular-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.popular-top .control-btn {
+  background: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid var(--primary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--primary-color);
+}
+.popular-top .controls {
+  display: flex;
+  gap: 18px;
+}
+.popular-top .control-btn:hover {
+  background-color: var(--primary-color);
+  color: white;
+  cursor: pointer;
 }
