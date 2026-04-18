@@ -392,9 +392,15 @@ a {
   padding-bottom: 96px;
   padding-top: 96px;
 }
+.feedback-list {
+  display: flex;
+  overflow: hidden;
+}
 .feedback-item {
   display: flex;
   justify-content: space-between;
+  flex-shrink: 0;
+  width: 100%;
 }
 .feedback-item .avatar {
   border-radius: 50%;
